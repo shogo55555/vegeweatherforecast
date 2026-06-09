@@ -1,0 +1,23 @@
+{
+  "updatedAt": "2026-06-09T08:18:15.012Z",
+  "products": [
+    {
+      "id": "tomato",
+      "origin": "熊本県",
+      "isRain": true,
+      "weather": "強い雨",
+      "message": "いま産地は雨。畑にとっては恵みの雨です。",
+      "normalImage": "https://www.oisix.com/img/yasai/tomato_normal.jpg",
+      "rainImage": "https://www.oisix.com/img/yasai/tomato_rain.jpg"
+    },
+    {
+      "id": "lettuce",
+      "origin": "長野県",
+      "isRain": false,
+      "weather": "厚い雲",
+      "message": null,
+      "normalImage": "https://www.oisix.com/img/yasai/lettuce_normal.jpg",
+      "rainImage": "https://www.oisix.com/img/yasai/lettuce_rain.jpg"
+    }
+  ]
+}
