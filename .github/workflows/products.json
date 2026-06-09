@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tomato",
+    "origin": "熊本県",
+    "lat": 32.79,
+    "lon": 130.74,
+    "normalImage": "https://www.oisix.com/img/yasai/tomato_normal.jpg",
+    "rainImage": "https://www.oisix.com/img/yasai/tomato_rain.jpg",
+    "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
+  },
+  {
+    "id": "lettuce",
+    "origin": "長野県",
+    "lat": 36.65,
+    "lon": 138.18,
+    "normalImage": "https://www.oisix.com/img/yasai/lettuce_normal.jpg",
+    "rainImage": "https://www.oisix.com/img/yasai/lettuce_rain.jpg",
+    "rainMessage": "産地は雨模様。みずみずしく育っています。"
+  }
+]
