@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-17T14:51:18.725Z",
+  "updatedAt": "2026-06-17T17:45:21.509Z",
   "products": [
     {
       "id": "tomato",
       "origin": "熊本県",
       "isRain": false,
-      "weather": "薄い雲",
+      "weather": "曇りがち",
       "message": null,
       "normalImage": "https://www.oisix.com/img/yasai/tomato_normal.jpg",
       "rainImage": "https://www.oisix.com/img/yasai/tomato_rain.jpg"
