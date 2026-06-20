@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T13:27:58.502Z",
+  "updatedAt": "2026-06-20T15:28:29.824Z",
   "products": [
     {
       "id": "tomato",
@@ -13,9 +13,9 @@
     {
       "id": "lettuce",
       "origin": "長野県",
-      "isRain": true,
-      "weather": "適度な雨",
-      "message": "産地は雨模様。みずみずしく育っています。",
+      "isRain": false,
+      "weather": "厚い雲",
+      "message": null,
       "normalImage": "https://www.oisix.com/img/yasai/lettuce_normal.jpg",
       "rainImage": "https://www.oisix.com/img/yasai/lettuce_rain.jpg"
     }
