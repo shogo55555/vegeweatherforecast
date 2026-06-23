@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-23T06:39:50.184Z",
+  "updatedAt": "2026-06-23T09:32:33.157Z",
   "products": [
     {
-      "id": "tomato",
+      "id": "list-itemid-ss8-2258",
       "origin": "熊本県",
       "isRain": true,
-      "weather": "強い雨",
+      "weather": "適度な雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "normalImage": "https://www.oisix.com/img/yasai/tomato_normal.jpg",
       "rainImage": "https://www.oisix.com/img/yasai/tomato_rain.jpg"
