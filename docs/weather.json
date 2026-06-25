@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-25T13:54:40.327Z",
+  "updatedAt": "2026-06-25T16:16:02.009Z",
   "products": [
     {
       "id": "list-itemid-ss9-2939",
       "origin": "静岡県",
       "isRain": true,
-      "weather": "強い雨",
+      "weather": "小雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "normalImage": "https://www.oisix.com/img/yasai/tomato_normal.jpg",
       "rainImage": [
