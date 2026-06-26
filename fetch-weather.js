@@ -58,11 +58,11 @@ async function main() {
       const isRain = w?.isRain ?? false;
       return {
         id: p.id,
+        tiketId: p.tiketId ?? null,
         origin: p.origin,
         isRain,
         weather: w?.description ?? '',
         message: isRain ? p.rainMessage : null,
-        normalImage: p.normalImage,
         rainImage: p.rainImage,
       };
     }),
