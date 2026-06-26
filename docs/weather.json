@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-06-26T07:14:29.158Z",
+  "updatedAt": "2026-06-26T07:19:02.497Z",
   "products": [
     {
       "id": "ss9-2939",
+      "tiketId": "list-itemid-ss8-2258",
       "origin": "静岡県",
       "isRain": true,
-      "weather": "強い雨",
+      "weather": "適度な雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
@@ -14,6 +15,7 @@
     },
     {
       "id": "ss8-1170",
+      "tiketId": "list-itemid-ss9-2138",
       "origin": "北海道",
       "isRain": false,
       "weather": "厚い雲",
