@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T08:30:07.875Z",
+  "updatedAt": "2026-06-26T10:14:24.995Z",
   "products": [
     {
       "id": "ss9-2939",
@@ -7,7 +7,7 @@
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "静岡県",
       "isRain": true,
-      "weather": "適度な雨",
+      "weather": "強い雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
@@ -19,9 +19,9 @@
       "tiketId": "list-itemid-ss9-2138",
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "北海道",
-      "isRain": false,
-      "weather": "厚い雲",
-      "message": null,
+      "isRain": true,
+      "weather": "適度な雨",
+      "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
         "https://static.oisix.com/g6/feature/image/260216_ame_campaign.jpg"
