@@ -4,7 +4,7 @@
     "origin": "静岡県",
     "lat": 34.71,
     "lon": 137.72,
-    "normalImage": "https://www.oisix.com/img/yasai/tomato_normal.jpg",
+    "tiketId": "list-itemid-ss8-2258",
     "rainImage": [
       "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
       "https://static.oisix.com/g6/feature/image/260216_ame_campaign.jpg"
@@ -12,12 +12,15 @@
     "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
   },
   {
-    "id": "lettuce",
-    "origin": "長野県",
-    "lat": 36.65,
-    "lon": 138.18,
-    "normalImage": "https://www.oisix.com/img/yasai/lettuce_normal.jpg",
-    "rainImage": "https://www.oisix.com/img/yasai/lettuce_rain.jpg",
-    "rainMessage": "産地は雨模様。みずみずしく育っています。"
+    "id": "ss8-1170",
+    "origin": "北海道",
+    "lat": 43.77,
+    "lon": 142.36,
+    "tiketId": "list-itemid-ss8-1170",
+    "rainImage": [
+      "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
+      "https://static.oisix.com/g6/feature/image/260216_ame_campaign.jpg"
+    ],
+    "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
   }
 ]
