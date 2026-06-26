@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T16:07:10.334Z",
+  "updatedAt": "2026-06-26T18:22:47.564Z",
   "products": [
     {
       "id": "ss9-2939",
@@ -7,7 +7,7 @@
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "静岡県",
       "isRain": true,
-      "weather": "適度な雨",
+      "weather": "小雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
