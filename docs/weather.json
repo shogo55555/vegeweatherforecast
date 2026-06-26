@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-26T18:22:47.564Z",
+  "updatedAt": "2026-06-26T20:27:05.834Z",
   "products": [
     {
       "id": "ss9-2939",
       "tiketId": "list-itemid-ss8-2258",
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "静岡県",
-      "isRain": true,
-      "weather": "小雨",
-      "message": "いま産地は雨。畑にとっては恵みの雨です。",
+      "isRain": false,
+      "weather": "厚い雲",
+      "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
         "https://static.oisix.com/g6/feature/image/260216_ame_campaign.jpg"
