@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-26T02:28:36.316Z",
+  "updatedAt": "2026-06-26T06:35:06.440Z",
   "products": [
     {
-      "id": "list-itemid-ss9-2939",
+      "id": "ss9-2939",
       "origin": "静岡県",
       "isRain": true,
       "weather": "強い雨",
@@ -16,9 +16,9 @@
     {
       "id": "lettuce",
       "origin": "長野県",
-      "isRain": false,
-      "weather": "厚い雲",
-      "message": null,
+      "isRain": true,
+      "weather": "適度な雨",
+      "message": "産地は雨模様。みずみずしく育っています。",
       "normalImage": "https://www.oisix.com/img/yasai/lettuce_normal.jpg",
       "rainImage": "https://www.oisix.com/img/yasai/lettuce_rain.jpg"
     }
