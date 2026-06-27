@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:54:58.083Z",
+  "updatedAt": "2026-06-27T23:54:35.294Z",
   "products": [
     {
       "id": "ss9-2939",
@@ -20,7 +20,7 @@
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "秋田県",
       "isRain": false,
-      "weather": "曇りがち",
+      "weather": "厚い雲",
       "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
