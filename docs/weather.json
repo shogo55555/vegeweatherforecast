@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T03:52:40.464Z",
+  "updatedAt": "2026-07-01T08:03:33.331Z",
   "products": [
     {
       "id": "ss9-2939",
@@ -7,7 +7,7 @@
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "静岡県",
       "isRain": true,
-      "weather": "強い雨",
+      "weather": "適度な雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
@@ -20,7 +20,7 @@
       "jspUrl": "/smart/yasai/include/inc_rain_project.jsp",
       "origin": "秋田県",
       "isRain": false,
-      "weather": "曇りがち",
+      "weather": "厚い雲",
       "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
