@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T08:49:50.379Z",
+  "updatedAt": "2026-07-03T11:26:13.537Z",
   "products": [
     {
       "id": "2501bjwj",
@@ -7,7 +7,7 @@
       "jspUrl": null,
       "origin": "静岡県",
       "isRain": true,
-      "weather": "小雨",
+      "weather": "適度な雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
@@ -20,7 +20,7 @@
       "jspUrl": null,
       "origin": "秋田県",
       "isRain": false,
-      "weather": "雲",
+      "weather": "曇りがち",
       "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
