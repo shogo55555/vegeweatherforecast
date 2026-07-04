@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T17:09:14.252Z",
+  "updatedAt": "2026-07-04T18:56:24.559Z",
   "products": [
     {
       "id": "2501bjwj",
@@ -7,7 +7,7 @@
       "jspUrl": null,
       "origin": "静岡県",
       "isRain": false,
-      "weather": "曇りがち",
+      "weather": "厚い雲",
       "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
@@ -20,7 +20,7 @@
       "jspUrl": null,
       "origin": "秋田県",
       "isRain": false,
-      "weather": "雲",
+      "weather": "晴天",
       "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
