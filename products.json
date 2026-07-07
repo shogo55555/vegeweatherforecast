@@ -1,25 +1,37 @@
 [
   {
-    "id": "2501bjwj",
-    "origin": "静岡県",
-    "lat": 32.74,
-    "lon": 129.87,
-    "tiketId": "list-itemid-2501bjwj",
+    "id": "ss4-2926",
+    "origin": "埼玉県",
+    "lat": 43.91,
+    "lon": 144.67,
+    "tiketId": "list-itemid-2501bkb7",
     "rainImage": [
-      "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
-      "https://static.oisix.com/g6/feature/image/260216_ame_campaign.jpg"
+      "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
+      "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
     ],
     "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
   },
   {
-    "id": "ss8-1170",
-    "origin": "秋田県",
-    "lat": 39.71,
-    "lon": 140.10,
-    "tiketId": "list-itemid-ss9-2138",
+    "id": "ss7-1947",
+    "origin": "新潟県",
+    "lat": 37.90,
+    "lon": 139.02,
+    "tiketId": "list-itemid-2501bkb8",
     "rainImage": [
-      "https://static.oisix.com/g6/feature/image/260216_ame_mv.jpg",
-      "https://static.oisix.com/g6/feature/image/260216_ame_campaign.jpg"
+      "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
+      "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
+    ],
+    "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
+  },
+  {
+    "id": "ss9-1320",
+    "origin": "島根県",
+    "lat": 35.47,
+    "lon": 133.05,
+    "tiketId": "list-itemid-2501bkb9",
+    "rainImage": [
+      "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
+      "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
     ],
     "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
   }
