@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:51:36.884Z",
+  "updatedAt": "2026-07-07T23:47:13.413Z",
   "products": [
     {
       "id": "ss4-2926",
@@ -18,7 +18,7 @@
       "tiketId": "2501bkb8",
       "origin": "新潟県",
       "isRain": false,
-      "weather": "曇りがち",
+      "weather": "厚い雲",
       "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
