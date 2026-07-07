@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-07-07T10:17:56.665Z",
+  "updatedAt": "2026-07-07T10:28:07.599Z",
   "products": [
     {
       "id": "2501bkb7",
       "tiketId": "list-itemid-2501bkb7",
-      "jspUrl": null,
       "origin": "埼玉県",
       "isRain": false,
       "weather": "厚い雲",
@@ -17,7 +16,6 @@
     {
       "id": "2501bkb8",
       "tiketId": "list-itemid-2501bkb8",
-      "jspUrl": null,
       "origin": "新潟県",
       "isRain": false,
       "weather": "曇りがち",
@@ -30,7 +28,6 @@
     {
       "id": "2501bkb9",
       "tiketId": "list-itemid-2501bkb9",
-      "jspUrl": null,
       "origin": "島根県",
       "isRain": false,
       "weather": "曇りがち",
