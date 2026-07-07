@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-07T10:28:07.599Z",
+  "updatedAt": "2026-07-07T10:32:11.968Z",
   "products": [
     {
       "id": "2501bkb7",
       "tiketId": "list-itemid-2501bkb7",
       "origin": "埼玉県",
-      "isRain": false,
-      "weather": "厚い雲",
-      "message": null,
+      "isRain": true,
+      "weather": "小雨",
+      "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
         "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
