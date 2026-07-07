@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-07-07T09:31:47.663Z",
+  "updatedAt": "2026-07-07T10:00:14.857Z",
   "products": [
     {
-      "id": "ss4-2926",
+      "id": "2501bkb7",
       "tiketId": "list-itemid-2501bkb7",
       "jspUrl": null,
       "origin": "埼玉県",
-      "isRain": true,
-      "weather": "小雨",
-      "message": "いま産地は雨。畑にとっては恵みの雨です。",
+      "isRain": false,
+      "weather": "厚い雲",
+      "message": null,
       "rainImage": [
         "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
         "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     },
     {
-      "id": "ss7-1947",
+      "id": "2501bkb8",
       "tiketId": "list-itemid-2501bkb8",
       "jspUrl": null,
       "origin": "新潟県",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "id": "ss9-1320",
+      "id": "2501bkb9",
       "tiketId": "list-itemid-2501bkb9",
       "jspUrl": null,
       "origin": "島根県",
