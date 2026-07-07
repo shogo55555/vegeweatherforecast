@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T12:14:39.369Z",
+  "updatedAt": "2026-07-07T12:43:26.457Z",
   "products": [
     {
       "id": "ss4-2926",
@@ -9,8 +9,8 @@
       "weather": "小雨",
       "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
-        "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
-        "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
+        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
+        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     },
     {
@@ -18,23 +18,23 @@
       "tiketId": "list-itemid-2501bkb8",
       "origin": "新潟県",
       "isRain": false,
-      "weather": "曇りがち",
+      "weather": "薄い雲",
       "message": null,
       "rainImage": [
-        "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
-        "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
+        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
+        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     },
     {
       "id": "ss9-1320",
       "tiketId": "list-itemid-2501bkb9",
       "origin": "島根県",
-      "isRain": false,
-      "weather": "曇りがち",
-      "message": null,
+      "isRain": true,
+      "weather": "小雨",
+      "message": "いま産地は雨。畑にとっては恵みの雨です。",
       "rainImage": [
-        "https://static.oisix.com/g6/feature/image/260709_ame_image_01.png",
-        "https://static.oisix.com/g6/feature/image/260709_ame_contents_01.png"
+        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
+        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     }
   ]
