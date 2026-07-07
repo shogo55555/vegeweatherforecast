@@ -59,7 +59,6 @@ async function main() {
       return {
         id: p.id,
         tiketId: p.tiketId ?? null,
-        jspUrl: p.jspUrl ?? null,
         origin: p.origin,
         isRain,
         weather: w?.description ?? '',
