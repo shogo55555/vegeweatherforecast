@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T10:51:27.630Z",
+  "updatedAt": "2026-07-08T11:22:27.245Z",
   "source": "気象庁",
   "products": [
     {
@@ -18,23 +18,23 @@
       ]
     },
     {
-      "id": "ss6-2715",
-      "tiketId": "",
-      "origin": "千葉県",
+      "id": "ss7-1947",
+      "tiketId": "2501bkb8",
+      "origin": "新潟県",
       "isRain": false,
-      "weatherCode": "101",
+      "weatherCode": "111",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "message": null,
       "rainImage": [
-        "",
-        ""
+        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
+        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     },
     {
-      "id": "ss4-2926",
-      "tiketId": "",
+      "id": "ss6-1682",
+      "tiketId": "2501bkb7",
       "origin": "埼玉県",
       "isRain": false,
       "weatherCode": "111",
@@ -43,8 +43,8 @@
       "activeWarnings": [],
       "message": null,
       "rainImage": [
-        "",
-        ""
+        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
+        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     },
     {
@@ -63,18 +63,18 @@
       ]
     },
     {
-      "id": "ss9-2054",
-      "tiketId": "",
-      "origin": "群馬県",
+      "id": "ss9-1320",
+      "tiketId": "2501bkb9",
+      "origin": "島根県",
       "isRain": false,
-      "weatherCode": "200",
+      "weatherCode": "211",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "message": null,
       "rainImage": [
-        "",
-        ""
+        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
+        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
       ]
     },
     {
