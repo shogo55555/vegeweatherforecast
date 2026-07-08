@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T21:02:26.956Z",
+  "updatedAt": "2026-07-08T23:01:04.153Z",
   "source": "気象庁",
   "products": [
     {
@@ -82,7 +82,7 @@
       "tiketId": "",
       "origin": "静岡県",
       "isRain": false,
-      "weatherCode": "101",
+      "weatherCode": "111",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
