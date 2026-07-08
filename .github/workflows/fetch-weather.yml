@@ -3,7 +3,7 @@ name: fetch-weather
 on:
   schedule:
     - cron: '0 * * * *'   # 毎時0分に実行（UTC基準）
-  workflow_dispatch:        # 手動実行ボタンを有効化
+  workflow_dispatch:        # 手動実行ボタンを有効化（テスト用）
 
 permissions:
   contents: write           # weather.json をコミットするために必要
@@ -20,7 +20,6 @@ jobs:
 
       - name: Fetch weather
         run: node fetch-weather.js
-        # 気象庁はAPIキー不要のため env: の指定は不要
 
       - name: Commit if changed
         run: |
