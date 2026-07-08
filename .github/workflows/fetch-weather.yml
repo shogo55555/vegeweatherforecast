@@ -1,32 +1,3 @@
-name: fetch-weather
-
-on:
-  schedule:
-    - cron: '0 * * * *'   # 毎時0分に実行（UTC基準）
-  workflow_dispatch:        # 手動実行ボタンを有効化（テスト用）
-
-permissions:
-  contents: write           # weather.json をコミットするために必要
-
-jobs:
-  fetch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Fetch weather
+- name: Fetch weather
         run: node fetch-weather.js
-        env:
-          OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
-
-      - name: Commit if changed
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/weather.json
-          git commit -m "update weather $(date -u +%FT%TZ)" || echo "no changes"
-          git push
+        # env: の OWM_API_KEY / WEATHERAPI_KEY 行は不要（気象庁はキー不要）

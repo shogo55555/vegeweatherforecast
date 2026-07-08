@@ -1,38 +1,68 @@
 [
   {
+    "id": "ss6-1600",
+    "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
+    "origin": "群馬県",
+    "farm": "有限会社あずま産直ねっと（伊勢崎市）",
+    "jmaArea": "100000",
+    "subArea": "100010",
+    "tiketId": "",
+    "rainImage": ["", ""],
+    "rainMessage": "いま産地の群馬は雨。ハウスのきゅうりも、土にしみ込む雨の水で育っています。"
+  },
+  {
+    "id": "ss6-2715",
+    "productName": "夏の味わい ぐんぐん育ったズッキーニ(千葉県産)",
+    "origin": "千葉県",
+    "farm": "東京富永商事株式会社（千葉市稲毛区）",
+    "jmaArea": "120000",
+    "subArea": "120010",
+    "tiketId": "",
+    "rainImage": ["", ""],
+    "rainMessage": "いま産地の千葉は雨。地面から水と栄養を吸って育つズッキーニにとって、恵みの雨です。"
+  },
+  {
     "id": "ss4-2926",
+    "productName": "サーロインなす(埼玉県産)",
     "origin": "埼玉県",
-    "lat": 43.47,
-    "lon": 146.44,
-    "tiketId": "2501bkb7",
-    "rainImage": [
-      "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
-      "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
-    ],
-    "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
+    "farm": "南彩農業協同組合（春日部市）",
+    "jmaArea": "110000",
+    "subArea": "110010",
+    "tiketId": "",
+    "rainImage": ["", ""],
+    "rainMessage": "いま産地の埼玉は雨。水を好むサーロインなす（フィレンツェ）にとって、恵みの雨です。"
   },
   {
-    "id": "ss7-1947",
-    "origin": "新潟県",
-    "lat": 37.90,
-    "lon": 139.02,
-    "tiketId": "2501bkb8",
-    "rainImage": [
-      "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
-      "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
-    ],
-    "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
+    "id": "ss4-2925",
+    "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
+    "origin": "千葉県",
+    "farm": "農事組合法人船橋農産物供給センター（印西市）",
+    "jmaArea": "120000",
+    "subArea": "120010",
+    "tiketId": "",
+    "rainImage": ["", ""],
+    "rainMessage": "いま産地の千葉は雨。畑にとっては恵みの雨です。"
   },
   {
-    "id": "ss9-1320",
-    "origin": "島根県",
-    "lat": 43.47,
-    "lon": 146.44,
-    "tiketId": "2501bkb9",
-    "rainImage": [
-      "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
-      "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
-    ],
-    "rainMessage": "いま産地は雨。畑にとっては恵みの雨です。"
+    "id": "ss9-2054",
+    "productName": "えぐみの少ない！レタス(群馬県産)",
+    "origin": "群馬県",
+    "farm": "株式会社野菜くらぶ（利根郡昭和村）",
+    "jmaArea": "100000",
+    "subArea": "100020",
+    "tiketId": "",
+    "rainImage": ["", ""],
+    "rainMessage": "いま産地の群馬は雨。レタスがみずみずしく、シャキッと育つ恵みの雨です。"
+  },
+  {
+    "id": "ss9-1110",
+    "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
+    "origin": "静岡県",
+    "farm": "株式会社鈴生（静岡市葵区）",
+    "jmaArea": "220000",
+    "subArea": "220010",
+    "tiketId": "",
+    "rainImage": ["", ""],
+    "rainMessage": "いま産地の静岡は雨。枝豆にとって、生育に欠かせない恵みの雨です。"
   }
 ]
