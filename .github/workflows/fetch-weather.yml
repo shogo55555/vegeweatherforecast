@@ -20,7 +20,8 @@ jobs:
 
       - name: Fetch weather
         run: node fetch-weather.js
-        # 気象庁はAPIキー不要のため env: の指定は不要
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: Commit if changed
         run: |
