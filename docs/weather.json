@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:47:45.939Z",
+  "updatedAt": "2026-07-09T20:44:00.269Z",
   "source": "気象庁",
   "products": [
     {
@@ -45,7 +45,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "北海道",
       "isRain": true,
-      "weatherCode": "300",
+      "weatherCode": "313",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -99,7 +99,7 @@
       "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
       "origin": "静岡県",
       "isRain": false,
-      "weatherCode": "111",
+      "weatherCode": "101",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
