@@ -4,6 +4,9 @@ import fs from 'node:fs/promises';
 const FORECAST_ENDPOINT = 'https://www.jma.go.jp/bosai/forecast/data/forecast'; // /{府県コード}.json
 const WARNING_ENDPOINT  = 'https://www.jma.go.jp/bosai/warning/data/warning';   // /{府県コード}.json
 
+// Slack通知用のWebhook URL（GitHub Secrets から渡す）
+const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
+
 // 「災害級」とみなす警報コード（=これが出ていたら恵みの雨演出を止める）
 // 既定は大雨に直結する警報・特別警報のみ。必要なら下に追記して調整可。
 //   05:暴風警報 06:大雪警報 07:波浪警報 08:高潮警報 02:暴風雪警報
@@ -58,9 +61,41 @@ async function fetchDisasterActive(area) {
   return { isDisaster: active.length > 0, codes: [...new Set(active)] };
 }
 
+// 前回の weather.json から「1つでも雨だったか」を読む（無ければ false）
+async function readPreviousAnyRain() {
+  try {
+    const prev = JSON.parse(await fs.readFile('./docs/weather.json', 'utf-8'));
+    return (prev.products ?? []).some((p) => p.isRain === true);
+  } catch {
+    return false; // 初回など、前回ファイルが無い場合
+  }
+}
+
+// Slackに通知
+async function notifySlack(text) {
+  if (!SLACK_WEBHOOK_URL) {
+    console.log('SLACK_WEBHOOK_URL 未設定のため通知をスキップ');
+    return;
+  }
+  try {
+    const res = await fetch(SLACK_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    });
+    if (!res.ok) console.error('Slack通知失敗: HTTP', res.status);
+    else console.log('Slack通知送信:', text);
+  } catch (err) {
+    console.error('Slack通知エラー:', err.message);
+  }
+}
+
 async function main() {
   const raw = await fs.readFile('./products.json', 'utf-8');
   const products = JSON.parse(raw);
+
+  // ★上書きする前に、前回の「雨あり／なし」状態を読む
+  const oldAnyRain = await readPreviousAnyRain();
 
   // 府県予報区の重複を排除（同じ県は1回ずつ取得）
   const areas = [...new Set(products.map((p) => p.jmaArea))];
@@ -116,6 +151,21 @@ async function main() {
   await fs.mkdir('./docs', { recursive: true });
   await fs.writeFile('./docs/weather.json', JSON.stringify(output, null, 2));
   console.log('done:', output.updatedAt);
+
+  // ★状態が切り替わったときだけSlackへ通知
+  const newAnyRain = output.products.some((r) => r.isRain);
+
+  if (!oldAnyRain && newAnyRain) {
+    const list = output.products
+      .filter((r) => r.isRain)
+      .map((r) => `・${r.origin}`)
+      .join('\n');
+    await notifySlack(`🌧 産地で雨が降り始めました。\n現在雨の産地:\n${list}`);
+  } else if (oldAnyRain && !newAnyRain) {
+    await notifySlack('☀ すべての産地で雨がやみました。');
+  } else {
+    console.log('状態変化なし（通知なし）');
+  }
 }
 
 main().catch((err) => {
