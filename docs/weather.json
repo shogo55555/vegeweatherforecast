@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T10:49:57.282Z",
+  "updatedAt": "2026-07-09T11:00:23.923Z",
   "source": "気象庁",
   "products": [
     {
@@ -45,7 +45,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "埼玉県",
       "isRain": false,
-      "weatherCode": "111",
+      "weatherCode": "214",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
