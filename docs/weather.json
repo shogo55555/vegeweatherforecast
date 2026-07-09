@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T02:04:46.064Z",
+  "updatedAt": "2026-07-09T02:07:56.487Z",
   "source": "気象庁",
   "products": [
     {
@@ -36,12 +36,12 @@
       "id": "ss6-1682",
       "tiketId": "2501bkb7",
       "origin": "北海道",
-      "isRain": false,
-      "weatherCode": "",
-      "raining": false,
+      "isRain": true,
+      "weatherCode": "300",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
-      "message": null,
+      "message": "いま産地の埼玉は雨。水を好むサーロインなす（フィレンツェ）にとって、恵みの雨です。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
         "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
