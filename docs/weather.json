@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T11:09:54.145Z",
+  "updatedAt": "2026-07-09T11:26:08.711Z",
   "source": "気象庁",
   "products": [
     {
@@ -44,13 +44,13 @@
       "singleId": "ss4-2926",
       "productName": "サーロインなす(埼玉県産)",
       "origin": "北海道",
-      "isRain": false,
-      "weatherCode": "214",
-      "raining": false,
+      "isRain": true,
+      "weatherCode": "300",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の埼玉は雨。水を好むサーロインなす（フィレンツェ）にとって、恵みの雨です。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
         "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
