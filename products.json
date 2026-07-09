@@ -14,7 +14,7 @@
     "productName": "甘くみずみずしい 雪水ズッキーニ(新潟県産)",
     "origin": "新潟県",
     "jmaArea": "150000",
-    "subArea": "150010",
+    "subArea": "016010",
     "tiketId": "2501bkb8",
     "rainImage": ["https://www.oisix.com/g6/feature/image/260709_ame_image_01.png", "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"],
     "rainMessage": "いま産地の新潟は雨。地面から水と栄養を吸って育つズッキーニにとって、恵みの雨です。"
@@ -22,8 +22,8 @@
   {
     "id": "ss6-1682",
     "productName": "サーロインなす(埼玉県産)",
-    "origin": "埼玉県",
-    "jmaArea": "110000",
+    "origin": "北海道",
+    "jmaArea": "016000",
     "subArea": "110010",
     "tiketId": "2501bkb7",
     "rainImage": ["https://www.oisix.com/g6/feature/image/260709_ame_image_01.png", "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"],
