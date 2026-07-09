@@ -100,6 +100,7 @@ async function main() {
       return {
         id: p.id,
         tiketId: p.tiketId ?? null,
+        singleId: p.singleId ?? null,
         origin: p.origin,
         isRain,
         weatherCode,                       // 参考：気象庁の天気コード
