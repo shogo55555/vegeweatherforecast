@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-07-09T02:32:00.322Z",
+  "updatedAt": "2026-07-09T03:26:24.906Z",
   "source": "気象庁",
   "products": [
     {
       "id": "ss6-1600",
       "tiketId": "",
+      "singleId": "",
       "origin": "群馬県",
       "isRain": false,
       "weatherCode": "101",
@@ -20,6 +21,7 @@
     {
       "id": "ss7-1947",
       "tiketId": "2501bkb8",
+      "singleId": "ss7-1947",
       "origin": "新潟県",
       "isRain": false,
       "weatherCode": "",
@@ -35,6 +37,7 @@
     {
       "id": "ss6-1682",
       "tiketId": "2501bkb7",
+      "singleId": "ss4-2926",
       "origin": "北海道",
       "isRain": true,
       "weatherCode": "300",
@@ -50,6 +53,7 @@
     {
       "id": "ss4-2925",
       "tiketId": "",
+      "singleId": "",
       "origin": "千葉県",
       "isRain": false,
       "weatherCode": "100",
@@ -65,6 +69,7 @@
     {
       "id": "ss9-1320",
       "tiketId": "2501bkb9",
+      "singleId": "ss9-1320",
       "origin": "島根県",
       "isRain": false,
       "weatherCode": "100",
@@ -80,6 +85,7 @@
     {
       "id": "ss9-1110",
       "tiketId": "",
+      "singleId": "",
       "origin": "静岡県",
       "isRain": false,
       "weatherCode": "111",
