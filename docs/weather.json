@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T10:28:09.620Z",
+  "updatedAt": "2026-07-09T10:49:57.282Z",
   "source": "気象庁",
   "products": [
     {
@@ -43,9 +43,9 @@
       "tiketId": "2501bkb7",
       "singleId": "ss4-2926",
       "productName": "サーロインなす(埼玉県産)",
-      "origin": "北海道",
+      "origin": "埼玉県",
       "isRain": false,
-      "weatherCode": "214",
+      "weatherCode": "111",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
