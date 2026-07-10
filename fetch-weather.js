@@ -147,8 +147,14 @@ async function main() {
     }
   }
 
+const now = new Date();
   const output = {
-    updatedAt: new Date().toISOString(),
+    updatedAt: now.toISOString(),                          // 従来どおり（機械用・UTC）
+    updatedAtJst: now.toLocaleString('ja-JP', {            // 表示用（日本時間）
+      timeZone: 'Asia/Tokyo',
+      year: 'numeric', month: 'long', day: 'numeric',
+      hour: '2-digit', minute: '2-digit',
+    }),
     source: '気象庁',
     products: products.map((p) => {
       const weatherCode = forecastByArea[p.jmaArea]?.[p.subArea] ?? '';
