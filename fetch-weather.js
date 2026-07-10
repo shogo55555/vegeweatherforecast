@@ -177,10 +177,6 @@ async function main() {
   await fs.mkdir('./docs', { recursive: true });
   await fs.writeFile('./docs/weather.json', JSON.stringify(output, null, 2));
   console.log('done:', output.updatedAt);
-
-  // ▼テスト用（確認後に必ず削除する）
-  await notifySlack('@pb  🔔 これはテスト通知です。Slack連携の確認中です。');
-  // ▲ここまでテスト用
   
   // ───────── 通知判定 ─────────
   const rainingProducts = output.products.filter((r) => r.isRain);
