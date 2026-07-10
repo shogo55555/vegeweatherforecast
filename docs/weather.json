@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T07:08:47.918Z",
-  "updatedAtJst": "2026年7月10日 16:08",
+  "updatedAt": "2026-07-10T08:17:52.254Z",
+  "updatedAtJst": "2026年7月10日 17:17",
   "source": "気象庁",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weatherCode": "111",
+      "weatherCode": "101",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "北海道",
       "isRain": false,
-      "weatherCode": "203",
+      "weatherCode": "214",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
