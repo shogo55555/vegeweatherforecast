@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T00:00:46.140Z",
+  "updatedAt": "2026-07-10T04:46:03.664Z",
   "source": "気象庁",
   "products": [
     {
@@ -9,7 +9,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weatherCode": "101",
+      "weatherCode": "111",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -44,13 +44,13 @@
       "singleId": "ss4-2926",
       "productName": "サーロインなす(埼玉県産)",
       "origin": "北海道",
-      "isRain": true,
-      "weatherCode": "313",
-      "raining": true,
+      "isRain": false,
+      "weatherCode": "203",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の埼玉は雨。水を好むサーロインなす（フィレンツェ）にとって、恵みの雨です。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
         "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
@@ -99,7 +99,7 @@
       "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
       "origin": "静岡県",
       "isRain": false,
-      "weatherCode": "101",
+      "weatherCode": "111",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
