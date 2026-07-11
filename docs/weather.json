@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T07:08:52.244Z",
-  "updatedAtJst": "2026年7月11日 16:08",
+  "updatedAt": "2026-07-11T09:23:49.082Z",
+  "updatedAtJst": "2026年7月11日 18:23",
   "source": "気象庁",
   "products": [
     {
@@ -82,7 +82,7 @@
       "productName": "フラワーリーフレタス(島根県産)",
       "origin": "島根県",
       "isRain": false,
-      "weatherCode": "111",
+      "weatherCode": "101",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
