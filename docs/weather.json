@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T18:55:11.716Z",
-  "updatedAtJst": "2026年7月12日 03:55",
+  "updatedAt": "2026-07-11T20:03:47.327Z",
+  "updatedAtJst": "2026年7月12日 05:03",
   "source": "気象庁",
   "products": [
     {
@@ -45,13 +45,13 @@
       "singleId": "ss4-2926",
       "productName": "サーロインなす(埼玉県産)",
       "origin": "北海道",
-      "isRain": true,
-      "weatherCode": "300",
-      "raining": true,
+      "isRain": false,
+      "weatherCode": "203",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の埼玉は雨。水を好むサーロインなす（フィレンツェ）にとって、恵みの雨です。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
         "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
@@ -64,7 +64,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weatherCode": "111",
+      "weatherCode": "200",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -100,7 +100,7 @@
       "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
       "origin": "静岡県",
       "isRain": false,
-      "weatherCode": "111",
+      "weatherCode": "200",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
