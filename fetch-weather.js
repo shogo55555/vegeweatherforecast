@@ -176,10 +176,6 @@ const now = new Date();
   await fs.mkdir('./docs', { recursive: true });
   await fs.writeFile('./docs/weather.json', JSON.stringify(output, null, 2));
   console.log('done:', output.updatedAt);
-
-  // ▼テスト用（確認後に必ず削除する）
-  await notifySlack('🔔 通知チャンネル変更のテストです。');
-  // ▲ここまでテスト用
   
   // ───────── 通知判定 ─────────
   const rainingProducts = output.products.filter((r) => r.isRain);
