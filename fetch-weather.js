@@ -7,13 +7,6 @@ const WARNING_ENDPOINT  = 'https://www.jma.go.jp/bosai/warning/data/warning';
 // Slack通知用のWebhook URL（GitHub Secrets から渡す）
 const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
 
-// ★メンション設定：全メッセージの先頭に付く
-//   ・ユーザーグループの場合: '<!subteam^グループID>'（例 '<!subteam^S012ABC>'）
-//   ・個人ユーザーの場合:     '<@メンバーID>'（例 '<@U012ABC>'）
-//   ・チャンネル全員の場合:   '<!channel>'
-//   IDの調べ方は下部コメント参照。判明するまでは '@pb'（文字列表示のみ）でも動く。
-const MENTION = '@pb';
-
 // 府県コード → 県名（警報表示用）
 const PREF_NAMES = {
   '100000': '群馬県',
@@ -94,13 +87,13 @@ async function readPrevious() {
   }
 }
 
-// Slackに通知（先頭にメンションを付ける）
+// Slackに通知
 async function notifySlack(text) {
   if (!SLACK_WEBHOOK_URL) {
     console.log('SLACK_WEBHOOK_URL 未設定のため通知をスキップ');
     return;
   }
-  const body = `${MENTION}\n${text}`;
+  const body = text;
   try {
     const res = await fetch(SLACK_WEBHOOK_URL, {
       method: 'POST',
@@ -183,6 +176,10 @@ const now = new Date();
   await fs.mkdir('./docs', { recursive: true });
   await fs.writeFile('./docs/weather.json', JSON.stringify(output, null, 2));
   console.log('done:', output.updatedAt);
+
+  // ▼テスト用（確認後に必ず削除する）
+  await notifySlack('🔔 通知チャンネル変更のテストです。');
+  // ▲ここまでテスト用
   
   // ───────── 通知判定 ─────────
   const rainingProducts = output.products.filter((r) => r.isRain);
