@@ -11,17 +11,6 @@
     "rainMessage": "いま産地の群馬は雨。ハウスのきゅうりも、土にしみ込む雨の水で育っています。"
   },
   {
-    "id": "ss7-1947",
-    "productName": "甘くみずみずしい 雪水ズッキーニ(新潟県産)",
-    "origin": "新潟県",
-    "jmaArea": "150000",
-    "subArea": "016010",
-    "tiketId": "2501bkb8",
-    "singleId": "ss7-1947",
-    "rainImage": ["https://www.oisix.com/g6/feature/image/260709_ame_image_01.png", "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"],
-    "rainMessage": "いま産地の新潟は雨。地面から水と栄養を吸って育つズッキーニにとって、恵みの雨です。"
-  },
-  {
     "id": "ss4-2926",
     "productName": "サーロインなす(埼玉県産)",
     "origin": "埼玉県",
@@ -31,17 +20,6 @@
     "singleId": "ss4-2926",
     "rainImage": ["https://www.oisix.com/g6/feature/image/ame_2501bkb7_image.gif", "https://www.oisix.com/g6/feature/image/ame_2501bkb7_contents.png"],
     "rainMessage": "いま産地の埼玉は雨。水を好むサーロインなす（フィレンツェ）にとって、恵みの雨です。"
-  },
-  {
-    "id": "ss4-2925",
-    "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
-    "origin": "千葉県",
-    "jmaArea": "120000",
-    "subArea": "120010",
-    "tiketId": "",
-    "singleId": "",
-    "rainImage": ["", ""],
-    "rainMessage": "いま産地の千葉は雨。畑にとっては恵みの雨です。"
   },
   {
     "id": "ss9-2054",
