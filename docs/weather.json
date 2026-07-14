@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-14T13:29:17.547Z",
-  "updatedAtJst": "2026年7月14日 22:29",
+  "updatedAt": "2026-07-14T13:33:13.303Z",
+  "updatedAtJst": "2026年7月14日 22:33",
   "source": "気象庁",
   "products": [
     {
       "id": "ss6-1600",
-      "tiketId": "",
+      "tiketId": "2501bkta",
       "singleId": "",
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
@@ -17,26 +17,8 @@
       "activeWarningDetails": [],
       "message": null,
       "rainImage": [
-        "",
-        ""
-      ]
-    },
-    {
-      "id": "ss7-1947",
-      "tiketId": "2501bkb8",
-      "singleId": "ss7-1947",
-      "productName": "甘くみずみずしい 雪水ズッキーニ(新潟県産)",
-      "origin": "新潟県",
-      "isRain": false,
-      "weatherCode": "",
-      "raining": false,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": null,
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
-        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
+        "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
       ]
     },
     {
@@ -44,25 +26,7 @@
       "tiketId": "2501bkb7",
       "singleId": "ss4-2926",
       "productName": "サーロインなす(埼玉県産)",
-      "origin": "北海道",
-      "isRain": false,
-      "weatherCode": "200",
-      "raining": false,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": null,
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
-        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
-      ]
-    },
-    {
-      "id": "ss4-2925",
-      "tiketId": "",
-      "singleId": "",
-      "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
-      "origin": "千葉県",
+      "origin": "埼玉県",
       "isRain": false,
       "weatherCode": "111",
       "raining": false,
@@ -71,15 +35,15 @@
       "activeWarningDetails": [],
       "message": null,
       "rainImage": [
-        "",
-        ""
+        "https://www.oisix.com/g6/feature/image/ame_2501bkb7_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkb7_contents.png"
       ]
     },
     {
-      "id": "ss9-1320",
-      "tiketId": "2501bkb9",
-      "singleId": "ss9-1320",
-      "productName": "フラワーリーフレタス(島根県産)",
+      "id": "ss9-2054",
+      "tiketId": "2501bkt8",
+      "singleId": "ss9-2054",
+      "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "島根県",
       "isRain": false,
       "weatherCode": "100",
@@ -89,14 +53,14 @@
       "activeWarningDetails": [],
       "message": null,
       "rainImage": [
-        "https://www.oisix.com/g6/feature/image/260709_ame_image_01.png",
-        "https://www.oisix.com/g6/feature/image/260709_ame_contents_01.png"
+        "https://www.oisix.com/g6/feature/image/ame_2501bkt8_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkt8_contents.png"
       ]
     },
     {
       "id": "ss9-1110",
-      "tiketId": "",
-      "singleId": "",
+      "tiketId": "2501bkt9",
+      "singleId": "ss9-1110",
       "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
       "origin": "静岡県",
       "isRain": false,
@@ -107,8 +71,8 @@
       "activeWarningDetails": [],
       "message": null,
       "rainImage": [
-        "",
-        ""
+        "https://www.oisix.com/g6/feature/image/ame_2501bkt9_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkt9_contents.png"
       ]
     }
   ]
