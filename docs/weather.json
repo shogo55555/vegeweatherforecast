@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-15T11:37:26.057Z",
-  "updatedAtJst": "2026年7月15日 20:37",
+  "updatedAt": "2026-07-15T12:20:23.867Z",
+  "updatedAtJst": "2026年7月15日 21:20",
   "source": "気象庁",
   "products": [
     {
-      "id": "ss6-1600",
+      "id": "ss6-2320",
       "tiketId": "2501bkta",
-      "singleId": "",
+      "singleId": "ss6-1600",
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "ss9-1110",
+      "id": "ss8-1170",
       "tiketId": "2501bkt9",
       "singleId": "ss9-1110",
       "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
