@@ -111,14 +111,11 @@ async function main() {
   const raw = await fs.readFile('./products.json', 'utf-8');
   const products = JSON.parse(raw);
 
-  // ★上書き前に前回状態を読む
+  // ★上書き前に前回状態を読む（商品IDごとの前回 isRain を引けるようにする）
   const prev = await readPrevious();
-  const oldAnyRain = (prev?.products ?? []).some((p) => p.isRain === true);
-  const oldWarnings = new Set();
+  const prevRainById = new Map();
   for (const p of prev?.products ?? []) {
-    for (const w of p.activeWarningDetails ?? []) {
-      oldWarnings.add(`${w.name}／${w.prefName}${w.areaName}`);
-    }
+    prevRainById.set(p.id, p.isRain === true);
   }
 
   const areas = [...new Set(products.map((p) => p.jmaArea))];
@@ -140,7 +137,7 @@ async function main() {
     }
   }
 
-const now = new Date();
+  const now = new Date();
   const output = {
     updatedAt: now.toISOString(),                          // 従来どおり（機械用・UTC）
     updatedAtJst: now.toLocaleString('ja-JP', {            // 表示用（日本時間）
@@ -176,57 +173,55 @@ const now = new Date();
   await fs.mkdir('./docs', { recursive: true });
   await fs.writeFile('./docs/weather.json', JSON.stringify(output, null, 2));
   console.log('done:', output.updatedAt);
-  
+
   // ───────── 通知判定 ─────────
   const rainingProducts = output.products.filter((r) => r.isRain);
   const newAnyRain = rainingProducts.length > 0;
 
-  // (1) 雨割の開始／終了
-  if (!oldAnyRain && newAnyRain) {
-    const list = rainingProducts
-      .map((r) => `・${r.origin}（${r.productName}）`)
-      .join('\n');
-    await notifySlack(`🌧 雨割が開始されました。\n対象産地:\n${list}`);
-  } else if (oldAnyRain && !newAnyRain) {
-    await notifySlack('☀ 雨割を終了しました。');
-  } else {
-    console.log('雨割の状態変化なし');
-  }
-
-  // (2) 新しく出た警報の通知
-  const seen = new Set();
-  const newWarnings = [];
-  for (const p of output.products) {
-    for (const w of p.activeWarningDetails ?? []) {
-      const key = `${w.name}／${w.prefName}${w.areaName}`;
-      if (!oldWarnings.has(key) && !seen.has(key)) {
-        seen.add(key);
-        newWarnings.push(w);
+  // 産地ごとに前回→今回の isRain 変化を調べる
+  const changed = [];               // isRain が変化した産地（true→false / false→true）
+  const turnedFalseByWarning = [];  // 警報が原因で false に変わった産地
+  for (const r of output.products) {
+    const before = prevRainById.has(r.id) ? prevRainById.get(r.id) : false;
+    const after = r.isRain;
+    if (before !== after) {
+      changed.push(r);
+      // true → false に変わり、かつその原因が警報（雨は降っているが警報で停止）
+      if (before === true && after === false && r.suppressedByWarning) {
+        turnedFalseByWarning.push(r);
       }
     }
   }
 
-  if (newWarnings.length > 0) {
-    const lines = newWarnings
-      .map((w) => `・${w.name}（${w.prefName}${w.areaName}）`)
-      .join('\n');
-
-    // 現状 isRain に沿った補足＋いま雨割中の産地・商品
-    let rainNote;
+  // (1) isRain がどこかで変化したら、雨割の状態を通知
+  if (changed.length > 0) {
     if (newAnyRain) {
-      const active = rainingProducts
+      const list = rainingProducts
         .map((r) => `・${r.origin}（${r.productName}）`)
         .join('\n');
-      rainNote = `現在、雨割を実施中の産地:\n${active}`;
+      await notifySlack(`🌧 雨割を実施中です。\n対象産地:\n${list}`);
     } else {
-      rainNote = '該当産地の雨割演出は停止しています。';
+      await notifySlack('☀ 雨割は終了しました。');
     }
+  } else {
+    console.log('isRain の変化なし（雨割通知なし）');
+  }
 
+  // (2) 警報が原因で false に変わった産地があれば、警報を通知
+  if (turnedFalseByWarning.length > 0) {
+    const lines = turnedFalseByWarning
+      .map((r) => {
+        const names = (r.activeWarningDetails ?? [])
+          .map((w) => `${w.name}（${w.prefName}${w.areaName}）`)
+          .join('、');
+        return `・${r.origin}（${r.productName}）：${names}`;
+      })
+      .join('\n');
     await notifySlack(
-      `⚠️ 産地に警報が発表されました。\n${lines}\n\n${rainNote}`
+      `⚠️ 警報のため、以下の産地は雨割を停止しました。\n${lines}`
     );
   } else {
-    console.log('新規警報なし');
+    console.log('警報による停止の変化なし');
   }
 }
 
