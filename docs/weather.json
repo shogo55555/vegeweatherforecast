@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T11:30:01.243Z",
-  "updatedAtJst": "2026年7月16日 20:30",
+  "updatedAt": "2026-07-16T11:44:59.919Z",
+  "updatedAtJst": "2026年7月16日 20:44",
   "source": "気象庁",
   "products": [
     {
@@ -22,24 +22,6 @@
       ]
     },
     {
-      "id": "ss4-2926",
-      "tiketId": "2501bkb7",
-      "singleId": "ss4-2926",
-      "productName": "サーロインなす(埼玉県産)",
-      "origin": "埼玉県",
-      "isRain": false,
-      "weatherCode": "203",
-      "raining": false,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": null,
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bkb7_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bkb7_contents.png"
-      ]
-    },
-    {
       "id": "ss9-2054",
       "tiketId": "2501bkt8",
       "singleId": "ss9-2054",
@@ -55,24 +37,6 @@
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bkt8_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bkt8_contents.png"
-      ]
-    },
-    {
-      "id": "ss8-1170",
-      "tiketId": "2501bkt9",
-      "singleId": "ss9-1110",
-      "productName": "旨味あふれる！ぷりっと枝豆(静岡県産)",
-      "origin": "静岡県",
-      "isRain": false,
-      "weatherCode": "201",
-      "raining": false,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": null,
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bkt9_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bkt9_contents.png"
       ]
     }
   ]
