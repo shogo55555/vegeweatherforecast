@@ -22,6 +22,7 @@ jobs:
         run: node fetch-weather.js
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          WEATHERAPI_KEY: ${{ secrets.WEATHERAPI_KEY }}
 
       - name: Commit if changed
         run: |
