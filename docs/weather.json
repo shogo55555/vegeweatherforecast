@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T05:48:29.076Z",
-  "updatedAtJst": "2026年7月17日 14:48",
+  "updatedAt": "2026-07-17T06:16:52.825Z",
+  "updatedAtJst": "2026年7月17日 15:16",
   "source": "気象庁",
   "products": [
     {
@@ -26,9 +26,9 @@
       "tiketId": "2501bkt8",
       "singleId": "ss9-2054",
       "productName": "えぐみの少ない！レタス(群馬県産)",
-      "origin": "島根県",
+      "origin": "群馬県",
       "isRain": false,
-      "weatherCode": "200",
+      "weatherCode": "203",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
