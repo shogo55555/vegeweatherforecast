@@ -1,8 +1,11 @@
 import fs from 'node:fs/promises';
 
-// 気象庁エンドポイント（APIキー不要）
-const FORECAST_ENDPOINT = 'https://www.jma.go.jp/bosai/forecast/data/forecast';
+// 気象庁エンドポイント（警報用・APIキー不要）
 const WARNING_ENDPOINT  = 'https://www.jma.go.jp/bosai/warning/data/warning';
+
+// WeatherAPI.com（天気の現況用・APIキー必要）
+const WEATHERAPI_ENDPOINT = 'https://api.weatherapi.com/v1/current.json';
+const WEATHERAPI_KEY = process.env.WEATHERAPI_KEY;
 
 // Slack通知用のWebhook URL（GitHub Secrets から渡す）
 const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
@@ -31,28 +34,32 @@ const WARNING_NAMES = {
   '36': '大雪特別警報', '37': '波浪特別警報', '38': '高潮特別警報',
 };
 
+// WeatherAPI.com の condition code のうち「雨」とみなすもの
+// （霧雨〜本降り〜にわか雨〜雷雨。必要に応じて増減可）
+const RAIN_CODES = new Set([
+  1063, 1150, 1153, 1168, 1171,
+  1180, 1183, 1186, 1189, 1192, 1195, 1198, 1201,
+  1240, 1243, 1246, 1273, 1276,
+]);
+
 // 警報チェックに失敗したとき、安全側に倒して演出を止めるか（true=止める）
 const FAIL_SAFE_SUPPRESS = true;
 
-// 気象庁の天気コードが「雨」かどうか（300番台=雨）
-function isRainCode(code) {
-  const n = Number(code);
-  return Number.isFinite(n) && n >= 300 && n < 400;
-}
-
-async function fetchForecastMap(area) {
-  const res = await fetch(`${FORECAST_ENDPOINT}/${area}.json`);
-  if (!res.ok) throw new Error(`forecast HTTP ${res.status}`);
+// WeatherAPI.com で「今、雨が降っているか」を判定
+// （実降水量>0 または 雨系の condition code なら雨）
+async function fetchRainingByLatLon(lat, lon) {
+  const url = `${WEATHERAPI_ENDPOINT}?key=${WEATHERAPI_KEY}&q=${lat},${lon}&lang=ja`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`weatherapi HTTP ${res.status}`);
   const data = await res.json();
-  const series = data?.[0]?.timeSeries?.[0];
-  const map = {};
-  for (const a of series?.areas ?? []) {
-    map[a.area.code] = a.weatherCodes?.[0] ?? '';
-  }
-  return map;
+  const cur = data.current ?? {};
+  const code = cur.condition?.code ?? 0;
+  const precip = cur.precip_mm ?? 0;
+  const raining = precip > 0 || RAIN_CODES.has(code);
+  return { raining, description: cur.condition?.text ?? '', precipMm: precip };
 }
 
-// 警報を取得。details に 警報名・地域名・県名 を持たせる
+// 気象庁の警報を取得。details に 警報名・地域名・県名 を持たせる
 async function fetchDisasterActive(area) {
   const res = await fetch(`${WARNING_ENDPOINT}/${area}.json`);
   if (!res.ok) throw new Error(`warning HTTP ${res.status}`);
@@ -118,17 +125,23 @@ async function main() {
     prevRainById.set(p.id, p.isRain === true);
   }
 
-  const areas = [...new Set(products.map((p) => p.jmaArea))];
-  const forecastByArea = {};
-  const disasterByArea = {};
-
-  for (const area of areas) {
+  // ── 天気（WeatherAPI.com）：緯度経度の重複を排除して取得 ──
+  const rainingByLoc = {}; // "lat,lon" -> { raining, description, precipMm }
+  const uniqueLocs = [...new Set(products.map((p) => `${p.lat},${p.lon}`))];
+  for (const key of uniqueLocs) {
+    const [lat, lon] = key.split(',');
     try {
-      forecastByArea[area] = await fetchForecastMap(area);
+      rainingByLoc[key] = await fetchRainingByLatLon(lat, lon);
     } catch (err) {
-      console.error(`天気取得失敗 (${area}):`, err.message);
-      forecastByArea[area] = {};
+      console.error(`天気取得失敗 (${key}):`, err.message);
+      rainingByLoc[key] = { raining: false, description: '', precipMm: 0 };
     }
+  }
+
+  // ── 警報（気象庁）：府県予報区の重複を排除して取得 ──
+  const disasterByArea = {};
+  const areas = [...new Set(products.map((p) => p.jmaArea))];
+  for (const area of areas) {
     try {
       disasterByArea[area] = await fetchDisasterActive(area);
     } catch (err) {
@@ -145,10 +158,10 @@ async function main() {
       year: 'numeric', month: 'long', day: 'numeric',
       hour: '2-digit', minute: '2-digit',
     }),
-    source: '気象庁',
+    source: 'WeatherAPI.com（天気）／気象庁（警報）',
     products: products.map((p) => {
-      const weatherCode = forecastByArea[p.jmaArea]?.[p.subArea] ?? '';
-      const raining = isRainCode(weatherCode);
+      const w = rainingByLoc[`${p.lat},${p.lon}`] ?? { raining: false, description: '' };
+      const raining = w.raining;
       const disaster = disasterByArea[p.jmaArea] ?? { isDisaster: false, codes: [], details: [] };
       const isRain = raining && !disaster.isDisaster;
 
@@ -159,8 +172,8 @@ async function main() {
         productName: p.productName ?? '',
         origin: p.origin,
         isRain,
-        weatherCode,
-        raining,
+        weather: w.description,            // 参考：現況の天気（日本語）
+        raining,                           // 参考：雨かどうか（警報を考慮する前）
         suppressedByWarning: raining && disaster.isDisaster,
         activeWarnings: disaster.codes,
         activeWarningDetails: disaster.details,
@@ -174,7 +187,7 @@ async function main() {
   await fs.writeFile('./docs/weather.json', JSON.stringify(output, null, 2));
   console.log('done:', output.updatedAt);
 
-  // ───────── 通知判定 ─────────
+  // ───────── 通知判定（ルールは変更なし） ─────────
   const rainingProducts = output.products.filter((r) => r.isRain);
   const newAnyRain = rainingProducts.length > 0;
 
@@ -186,7 +199,6 @@ async function main() {
     const after = r.isRain;
     if (before !== after) {
       changed.push(r);
-      // true → false に変わり、かつその原因が警報（雨は降っているが警報で停止）
       if (before === true && after === false && r.suppressedByWarning) {
         turnedFalseByWarning.push(r);
       }
