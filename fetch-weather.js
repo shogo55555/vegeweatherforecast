@@ -158,7 +158,7 @@ async function main() {
       year: 'numeric', month: 'long', day: 'numeric',
       hour: '2-digit', minute: '2-digit',
     }),
-    source: 'WeatherAPI.com（天気）／気象庁（警報）',
+    source: 'WeatherAPI.com（天気）',
     products: products.map((p) => {
       const w = rainingByLoc[`${p.lat},${p.lon}`] ?? { raining: false, description: '' };
       const raining = w.raining;
