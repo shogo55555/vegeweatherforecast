@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T20:03:13.904Z",
-  "updatedAtJst": "2026年7月19日 05:03",
+  "updatedAt": "2026-07-18T21:44:56.424Z",
+  "updatedAtJst": "2026年7月19日 06:44",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "曇天",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "霧",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
