@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T10:58:22.867Z",
-  "updatedAtJst": "2026年7月18日 19:58",
+  "updatedAt": "2026-07-18T11:55:04.452Z",
+  "updatedAtJst": "2026年7月18日 20:55",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "曇天",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
