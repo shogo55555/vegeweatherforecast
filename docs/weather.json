@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-07-22T11:04:49.153Z",
-  "updatedAtJst": "2026年7月22日 20:04",
+  "updatedAt": "2026-07-22T12:51:02.692Z",
+  "updatedAtJst": "2026年7月22日 21:51",
   "source": "WeatherAPI.com",
   "products": [
     {
-      "id": "ss6-2320",
-      "tiketId": "2501bkta",
-      "singleId": "ss6-1600",
-      "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
-      "origin": "群馬県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "id": "ss7-1947",
+      "tiketId": "2501bl86",
+      "singleId": "ss6-1682",
+      "productName": "ジューシーズッキーニ(北海道産)",
+      "origin": "北海道",
+      "isRain": false,
+      "weather": "霧",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の群馬は雨。ハウスのきゅうりも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
+        "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
       ]
     },
     {
