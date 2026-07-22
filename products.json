@@ -1,19 +1,19 @@
 [
   {
-    "id": "ss6-2320",
-    "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
-    "origin": "群馬県",
-    "lat": 36.301,
-    "lon": 139.23,
-    "jmaArea": "100000",
-    "subArea": "100010",
-    "tiketId": "2501bkta",
-    "singleId": "ss6-1600",
+    "id": "ss7-1947",
+    "productName": "ジューシーズッキーニ(北海道産)",
+    "origin": "北海道",
+    "lat": 44.178,
+    "lon": 142.40,
+    "jmaArea": "012000",
+    "subArea": "012010",
+    "tiketId": "2501bl86",
+    "singleId": "ss6-1682",
     "rainImage": [
-      "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
-      "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
+      "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
     ],
-    "rainMessage": "いま産地の群馬は雨。ハウスのきゅうりも、土にしみ込む雨の水で育っています。"
+    "rainMessage": "いま産地の北海道は雨。ズッキーニも、土にしみ込む雨の水で育っています。"
   },
   {
     "id": "ss9-2054",
