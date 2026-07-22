@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T15:29:10.114Z",
-  "updatedAtJst": "2026年7月23日 00:29",
+  "updatedAt": "2026-07-22T17:12:31.912Z",
+  "updatedAtJst": "2026年7月23日 02:12",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "霧",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weather": "一部曇り",
+      "weather": "晴れ",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
