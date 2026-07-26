@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T08:24:52.930Z",
-  "updatedAtJst": "2026年7月26日 17:24",
+  "updatedAt": "2026-07-26T10:40:55.478Z",
+  "updatedAtJst": "2026年7月26日 19:40",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -9,13 +9,13 @@
       "singleId": "ss6-1682",
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "isRain": false,
+      "weather": "一部曇り",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の北海道は雨。ズッキーニも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
@@ -28,7 +28,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "所により小雨",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
