@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T17:58:24.911Z",
-  "updatedAtJst": "2026年7月27日 02:58",
+  "updatedAt": "2026-07-26T19:17:11.379Z",
+  "updatedAtJst": "2026年7月27日 04:17",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
       "isRain": false,
-      "weather": "霧",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
