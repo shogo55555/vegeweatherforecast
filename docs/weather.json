@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T15:01:31.740Z",
-  "updatedAtJst": "2026年7月27日 00:01",
+  "updatedAt": "2026-07-26T16:54:02.653Z",
+  "updatedAtJst": "2026年7月27日 01:54",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -27,13 +27,13 @@
       "singleId": "ss9-2054",
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
-      "isRain": true,
+      "isRain": false,
       "weather": "霧",
-      "raining": true,
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の群馬は雨。レタスがみずみずしく、シャキッと育つ恵みの雨です。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bkt8_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bkt8_contents.png"
