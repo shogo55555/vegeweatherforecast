@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-07-30T00:02:36.940Z",
-  "updatedAtJst": "2026年7月30日 09:02",
+  "updatedAt": "2026-07-30T01:00:57.932Z",
+  "updatedAtJst": "2026年7月30日 10:00",
   "source": "WeatherAPI.com",
   "products": [
+    {
+      "id": "ss4-2925",
+      "tiketId": "2501blqk",
+      "singleId": "ss4-2925",
+      "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
+      "origin": "千葉県",
+      "isRain": false,
+      "weather": "一部曇り",
+      "raining": false,
+      "suppressedByWarning": false,
+      "activeWarnings": [],
+      "activeWarningDetails": [],
+      "message": null,
+      "rainImage": [
+        "https://www.oisix.com/g6/feature/image/ame_2501blqk_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501blqk_contents.png"
+      ]
+    },
     {
       "id": "ss7-1947",
       "tiketId": "2501bl86",
@@ -22,21 +40,21 @@
       ]
     },
     {
-      "id": "ss9-2054",
-      "tiketId": "2501bkt8",
-      "singleId": "ss9-2054",
-      "productName": "えぐみの少ない！レタス(群馬県産)",
+      "id": "ss6-2320",
+      "tiketId": "2501bkta",
+      "singleId": "ss6-1600",
+      "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "一部曇り",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の群馬は雨。レタスがみずみずしく、シャキッと育つ恵みの雨です。",
+      "message": "いま産地の群馬は雨。きゅうりがみずみずしく、シャキッと育つ恵みの雨です。",
       "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bkt8_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bkt8_contents.png"
+        "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
       ]
     }
   ]
