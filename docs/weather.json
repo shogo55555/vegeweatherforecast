@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T17:21:24.686Z",
-  "updatedAtJst": "2026年7月31日 02:21",
+  "updatedAt": "2026-07-30T19:18:15.686Z",
+  "updatedAtJst": "2026年7月31日 04:18",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -28,7 +28,7 @@
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "小雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
