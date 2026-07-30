@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T19:18:15.686Z",
-  "updatedAtJst": "2026年7月31日 04:18",
+  "updatedAt": "2026-07-30T21:03:03.684Z",
+  "updatedAtJst": "2026年7月31日 06:03",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -9,13 +9,13 @@
       "singleId": "ss4-2925",
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "isRain": false,
+      "weather": "煙霞",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の千葉県は雨。トロなすも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501blqk_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501blqk_contents.png"
@@ -28,7 +28,7 @@
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
       "isRain": true,
-      "weather": "小雨",
+      "weather": "霧",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
