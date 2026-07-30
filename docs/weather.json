@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T13:48:07.974Z",
-  "updatedAtJst": "2026年7月30日 22:48",
+  "updatedAt": "2026-07-30T15:48:39.987Z",
+  "updatedAtJst": "2026年7月31日 00:48",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "煙霞",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
       "isRain": true,
-      "weather": "小雨",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
