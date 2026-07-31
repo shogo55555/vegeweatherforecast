@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-31T17:45:53.290Z",
-  "updatedAtJst": "2026年8月1日 02:45",
+  "updatedAt": "2026-07-31T19:17:31.290Z",
+  "updatedAtJst": "2026年8月1日 04:17",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weather": "煙霞",
+      "weather": "晴れ",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
