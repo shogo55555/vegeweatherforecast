@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-05T06:25:49.621Z",
-  "updatedAtJst": "2026年8月5日 15:25",
+  "updatedAt": "2026-08-05T09:33:06.335Z",
+  "updatedAtJst": "2026年8月5日 18:33",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weather": "一部曇り",
+      "weather": "曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -45,13 +45,13 @@
       "singleId": "ss6-1600",
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
-      "isRain": false,
-      "weather": "晴れ",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の群馬は雨。きゅうりがみずみずしく、シャキッと育つ恵みの雨です。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
