@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-06T00:46:13.993Z",
-  "updatedAtJst": "2026年8月6日 09:46",
+  "updatedAt": "2026-08-06T01:20:39.267Z",
+  "updatedAtJst": "2026年8月6日 10:20",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -63,13 +63,13 @@
       "singleId": "ss5-2103",
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
-      "isRain": false,
-      "weather": "曇天",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の埼玉は雨。スターおくらも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
