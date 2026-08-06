@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-06T07:31:25.207Z",
-  "updatedAtJst": "2026年8月6日 16:31",
+  "updatedAt": "2026-08-06T08:27:18.865Z",
+  "updatedAtJst": "2026年8月6日 17:27",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -64,7 +64,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
