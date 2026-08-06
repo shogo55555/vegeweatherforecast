@@ -1,6 +1,22 @@
 [
   {
-    "id": "ss4-2925",
+    "id": "ss6-2320",
+    "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
+    "origin": "群馬県",
+    "lat": 36.35,
+    "lon": 139.25,
+    "jmaArea": "100000",
+    "subArea": "100010",
+    "tiketId": "2501bkta",
+    "singleId": "ss6-1600",
+    "rainImage": [
+      "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
+    ],
+    "rainMessage": "いま産地の群馬県は雨。きゅうりも、土にしみ込む雨の水で育っています。"
+  },
+  {
+    "id": "ss8-2413",
     "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
     "origin": "千葉県",
     "lat": 35.79,
@@ -16,35 +32,35 @@
     "rainMessage": "いま産地の千葉県は雨。トロなすも、土にしみ込む雨の水で育っています。"
   },
   {
-    "id": "ss7-1947",
-    "productName": "ジューシーズッキーニ(北海道産)",
-    "origin": "北海道",
-    "lat": 44.20,
-    "lon": 142.41,
-    "jmaArea": "012000",
-    "subArea": "012010",
-    "tiketId": "2501bl86",
-    "singleId": "ss6-1682",
+    "id": "ss9-2969",
+    "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
+    "origin": "長野県",
+    "lat": 36.30,
+    "lon": 138.50,
+    "jmaArea": "200000",
+    "subArea": "200020",
+    "tiketId": "2501bmby",
+    "singleId": "s10-1010",
     "rainImage": [
-      "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
-      "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
+      "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
     ],
-    "rainMessage": "いま産地の北海道は雨。ズッキーニも、土にしみ込む雨の水で育っています。"
+    "rainMessage": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。"
   },
   {
-    "id": "ss6-2320",
-    "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
-    "origin": "群馬県",
-    "lat": 36.35,
-    "lon": 139.25,
-    "jmaArea": "100000",
-    "subArea": "100010",
-    "tiketId": "2501bkta",
-    "singleId": "ss6-1600",
+    "id": "00017944",
+    "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
+    "origin": "埼玉県",
+    "lat": 35.97,
+    "lon": 139.75,
+    "jmaArea": "110000",
+    "subArea": "110010",
+    "tiketId": "2501bmbz",
+    "singleId": "ss5-2103",
     "rainImage": [
-      "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
-      "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
+      "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
     ],
-    "rainMessage": "いま産地の群馬は雨。きゅうりがみずみずしく、シャキッと育つ恵みの雨です。"
+    "rainMessage": "いま産地の埼玉は雨。スターおくらも、土にしみ込む雨の水で育っています。"
   }
 ]
