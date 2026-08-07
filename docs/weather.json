@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T19:49:21.187Z",
-  "updatedAtJst": "2026年8月8日 04:49",
+  "updatedAt": "2026-08-07T20:35:23.676Z",
+  "updatedAtJst": "2026年8月8日 05:35",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -28,7 +28,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -45,13 +45,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": false,
+      "isRain": true,
       "weather": "霧",
-      "raining": false,
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
