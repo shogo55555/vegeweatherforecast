@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T17:44:17.379Z",
-  "updatedAtJst": "2026年8月8日 02:44",
+  "updatedAt": "2026-08-07T18:48:26.393Z",
+  "updatedAtJst": "2026年8月8日 03:48",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -9,13 +9,13 @@
       "singleId": "ss6-1600",
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
-      "isRain": false,
-      "weather": "",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の群馬県は雨。きゅうりも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
