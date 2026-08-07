@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T08:52:57.823Z",
-  "updatedAtJst": "2026年8月7日 17:52",
+  "updatedAt": "2026-08-07T09:56:58.351Z",
+  "updatedAtJst": "2026年8月7日 18:56",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -28,7 +28,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weather": "一部曇り",
+      "weather": "晴れ",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -64,7 +64,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "一部曇り",
+      "weather": "晴れ",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
