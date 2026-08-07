@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T18:48:26.393Z",
-  "updatedAtJst": "2026年8月8日 03:48",
+  "updatedAt": "2026-08-07T19:49:21.187Z",
+  "updatedAtJst": "2026年8月8日 04:49",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -28,7 +28,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": false,
-      "weather": "一部曇り",
+      "weather": "晴れ",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
