@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T11:23:37.386Z",
-  "updatedAtJst": "2026年8月9日 20:23",
+  "updatedAt": "2026-08-09T12:39:27.460Z",
+  "updatedAtJst": "2026年8月9日 21:39",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -45,13 +45,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": false,
-      "weather": "一部曇り",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
