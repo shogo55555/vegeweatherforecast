@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T16:28:58.582Z",
-  "updatedAtJst": "2026年8月10日 01:28",
+  "updatedAt": "2026-08-09T17:26:01.522Z",
+  "updatedAtJst": "2026年8月10日 02:26",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -45,13 +45,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": false,
+      "isRain": true,
       "weather": "霧",
-      "raining": false,
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
@@ -64,7 +64,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
