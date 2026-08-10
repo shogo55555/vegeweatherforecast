@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T12:56:32.757Z",
-  "updatedAtJst": "2026年8月10日 21:56",
+  "updatedAt": "2026-08-10T14:19:23.417Z",
+  "updatedAtJst": "2026年8月10日 23:19",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -46,7 +46,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "霧",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -64,7 +64,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "一部曇り",
+      "weather": "曇天",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
