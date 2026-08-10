@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T01:20:02.050Z",
-  "updatedAtJst": "2026年8月10日 10:20",
+  "updatedAt": "2026-08-10T03:49:00.466Z",
+  "updatedAtJst": "2026年8月10日 12:49",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -63,13 +63,13 @@
       "singleId": "ss5-2103",
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "isRain": false,
+      "weather": "曇天",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の埼玉は雨。スターおくらも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
