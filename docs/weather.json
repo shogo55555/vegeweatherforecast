@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T09:14:22.789Z",
-  "updatedAtJst": "2026年8月10日 18:14",
+  "updatedAt": "2026-08-10T11:03:25.701Z",
+  "updatedAtJst": "2026年8月10日 20:03",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -27,13 +27,13 @@
       "singleId": "ss4-2925",
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
-      "isRain": false,
-      "weather": "一部曇り",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の千葉県は雨。トロなすも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501blqk_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501blqk_contents.png"
@@ -63,13 +63,13 @@
       "singleId": "ss5-2103",
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
-      "isRain": false,
-      "weather": "一部曇り",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の埼玉は雨。スターおくらも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
