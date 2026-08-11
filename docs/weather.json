@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-11T21:41:00.133Z",
-  "updatedAtJst": "2026年8月12日 06:41",
+  "updatedAt": "2026-08-11T22:36:25.915Z",
+  "updatedAtJst": "2026年8月12日 07:36",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "小雨",
+      "weather": "霧",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": true,
-      "weather": "中程度の雨",
+      "weather": "小雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
