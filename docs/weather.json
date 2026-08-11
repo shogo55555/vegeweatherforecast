@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-11T06:58:21.416Z",
-  "updatedAtJst": "2026年8月11日 15:58",
+  "updatedAt": "2026-08-11T08:11:02.324Z",
+  "updatedAtJst": "2026年8月11日 17:11",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "所により小雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": true,
-      "weather": "所により小雨",
+      "weather": "中程度の雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -45,13 +45,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": false,
-      "weather": "一部曇り",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
@@ -64,7 +64,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": true,
-      "weather": "小雨",
+      "weather": "中程度の雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
