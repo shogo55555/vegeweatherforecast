@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-13T01:27:47.929Z",
-  "updatedAtJst": "2026年8月13日 10:27",
+  "updatedAt": "2026-08-13T04:06:18.480Z",
+  "updatedAtJst": "2026年8月13日 13:06",
   "source": "WeatherAPI.com",
   "products": [
     {
-      "id": "ss8-2413",
+      "id": "ss4-2925",
       "tiketId": "2501blqk",
       "singleId": "ss4-2925",
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
@@ -45,13 +45,13 @@
       "singleId": "ss6-1682",
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
-      "isRain": false,
-      "weather": "晴れ",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の北海道は雨。ジューシーズッキーニも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
@@ -64,7 +64,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "所により小雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
