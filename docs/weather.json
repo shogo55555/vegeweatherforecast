@@ -1,26 +1,8 @@
 {
-  "updatedAt": "2026-08-12T23:36:00.561Z",
-  "updatedAtJst": "2026年8月13日 08:36",
+  "updatedAt": "2026-08-13T01:27:09.286Z",
+  "updatedAtJst": "2026年8月13日 10:27",
   "source": "WeatherAPI.com",
   "products": [
-    {
-      "id": "ss6-2320",
-      "tiketId": "2501bkta",
-      "singleId": "ss6-1600",
-      "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
-      "origin": "群馬県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": "いま産地の群馬県は雨。きゅうりも、土にしみ込む雨の水で育っています。",
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
-      ]
-    },
     {
       "id": "ss8-2413",
       "tiketId": "2501blqk",
@@ -28,7 +10,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -40,7 +22,43 @@
       ]
     },
     {
-      "id": "ss9-2969",
+      "id": "ss9-2054",
+      "tiketId": "2501bkt8",
+      "singleId": "ss9-2054",
+      "productName": "えぐみの少ない！レタス(群馬県産)",
+      "origin": "群馬県",
+      "isRain": true,
+      "weather": "弱いにわか雨",
+      "raining": true,
+      "suppressedByWarning": false,
+      "activeWarnings": [],
+      "activeWarningDetails": [],
+      "message": "いま産地の群馬県は雨。レタスも、土にしみ込む雨の水で育っています。",
+      "rainImage": [
+        "https://www.oisix.com/g6/feature/image/ame_2501bkt8_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkt8_contents.png"
+      ]
+    },
+    {
+      "id": "ss6-1682",
+      "tiketId": "2501bl86",
+      "singleId": "ss6-1682",
+      "productName": "ジューシーズッキーニ(北海道産)",
+      "origin": "北海道",
+      "isRain": false,
+      "weather": "晴れ",
+      "raining": false,
+      "suppressedByWarning": false,
+      "activeWarnings": [],
+      "activeWarningDetails": [],
+      "message": null,
+      "rainImage": [
+        "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
+      ]
+    },
+    {
+      "id": "s10-1010",
       "tiketId": "2501bmby",
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
@@ -55,24 +73,6 @@
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
-      ]
-    },
-    {
-      "id": "00017944",
-      "tiketId": "2501bmbz",
-      "singleId": "ss5-2103",
-      "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
-      "origin": "埼玉県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": "いま産地の埼玉は雨。スターおくらも、土にしみ込む雨の水で育っています。",
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
       ]
     }
   ]
