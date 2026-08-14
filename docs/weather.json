@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T01:27:29.672Z",
-  "updatedAtJst": "2026年8月14日 10:27",
+  "updatedAt": "2026-08-14T04:02:47.714Z",
+  "updatedAtJst": "2026年8月14日 13:02",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "ステーキでとろーり食感 トロなす(千葉県産)",
       "origin": "千葉県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "中程度または強いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -64,7 +64,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": true,
-      "weather": "霧",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
