@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T04:02:47.714Z",
-  "updatedAtJst": "2026年8月14日 13:02",
+  "updatedAt": "2026-08-14T06:09:42.174Z",
+  "updatedAtJst": "2026年8月14日 15:09",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -45,13 +45,13 @@
       "singleId": "ss6-1682",
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
-      "isRain": false,
-      "weather": "晴れ",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の北海道は雨。ジューシーズッキーニも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
