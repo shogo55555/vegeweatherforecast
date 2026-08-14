@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T12:55:00.710Z",
-  "updatedAtJst": "2026年8月14日 21:55",
+  "updatedAt": "2026-08-14T14:13:17.144Z",
+  "updatedAtJst": "2026年8月14日 23:13",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "霧",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": true,
-      "weather": "霧",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
