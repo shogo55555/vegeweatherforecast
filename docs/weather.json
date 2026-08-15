@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-15T06:29:18.507Z",
-  "updatedAtJst": "2026年8月15日 15:29",
+  "updatedAt": "2026-08-15T07:26:01.393Z",
+  "updatedAtJst": "2026年8月15日 16:26",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -46,7 +46,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
