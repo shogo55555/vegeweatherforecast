@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T00:56:18.997Z",
-  "updatedAtJst": "2026年8月18日 09:56",
+  "updatedAt": "2026-08-18T02:14:31.118Z",
+  "updatedAtJst": "2026年8月18日 11:14",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -45,13 +45,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": false,
-      "weather": "一部曇り",
-      "raining": false,
+      "isRain": true,
+      "weather": "近くで所により雨",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
