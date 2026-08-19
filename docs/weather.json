@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T13:39:26.010Z",
-  "updatedAtJst": "2026年8月19日 22:39",
+  "updatedAt": "2026-08-19T14:27:48.662Z",
+  "updatedAtJst": "2026年8月19日 23:27",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "霧",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
       "isRain": false,
-      "weather": "霧",
+      "weather": "曇天",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "曇天",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
