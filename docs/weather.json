@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T14:27:48.662Z",
-  "updatedAtJst": "2026年8月19日 23:27",
+  "updatedAt": "2026-08-19T15:25:55.940Z",
+  "updatedAtJst": "2026年8月20日 00:25",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -27,13 +27,13 @@
       "singleId": "ss6-1682",
       "productName": "ジューシーズッキーニ(北海道産)",
       "origin": "北海道",
-      "isRain": false,
-      "weather": "曇天",
-      "raining": false,
+      "isRain": true,
+      "weather": "霧",
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の北海道は雨。ジューシーズッキーニも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
@@ -46,7 +46,7 @@
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
       "isRain": false,
-      "weather": "曇天",
+      "weather": "霧",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
