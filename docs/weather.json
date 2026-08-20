@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T19:26:29.402Z",
-  "updatedAtJst": "2026年8月21日 04:26",
+  "updatedAt": "2026-08-20T20:22:16.273Z",
+  "updatedAtJst": "2026年8月21日 05:22",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -46,7 +46,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "霧",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -63,13 +63,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": false,
+      "isRain": true,
       "weather": "霧",
-      "raining": false,
+      "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": null,
+      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
