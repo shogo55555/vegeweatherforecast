@@ -1,5 +1,37 @@
 [
   {
+    "id": "ss4-2926",
+    "productName": "サーロインなす(埼玉県産)",
+    "origin": "埼玉県",
+    "lat": 35.97,
+    "lon": 139.75,
+    "jmaArea": "110000",
+    "subArea": "110010",
+    "tiketId": "2501bkb7",
+    "singleId": "ss4-2926",
+    "rainImage": [
+      "https://www.oisix.com/g6/feature/image/ame_2501bkb7_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bkb7_contents.png"
+    ],
+    "rainMessage": "いま産地の埼玉県は雨。サーロインなすも、土にしみ込む雨の水で育っています。"
+  },
+  {
+    "id": "ss9-2176",
+    "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
+    "origin": "埼玉県",
+    "lat": 35.97,
+    "lon": 139.75,
+    "jmaArea": "110000",
+    "subArea": "110010",
+    "tiketId": "2501bmbz",
+    "singleId": "ss5-2103",
+    "rainImage": [
+      "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
+    ],
+    "rainMessage": "いま産地の埼玉県は雨。スターおくらも、土にしみ込む雨の水で育っています。"
+  },
+  {
     "id": "ss9-2054",
     "productName": "えぐみの少ない！レタス(群馬県産)",
     "origin": "群馬県",
@@ -16,23 +48,7 @@
     "rainMessage": "いま産地の群馬県は雨。レタスも、土にしみ込む雨の水で育っています。"
   },
   {
-    "id": "ss6-1682",
-    "productName": "ジューシーズッキーニ(北海道産)",
-    "origin": "北海道",
-    "lat": 44.20,
-    "lon": 142.41,
-    "jmaArea": "012000",
-    "subArea": "012010",
-    "tiketId": "2501bl86",
-    "singleId": "ss6-1682",
-    "rainImage": [
-      "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
-      "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
-    ],
-    "rainMessage": "いま産地の北海道は雨。ジューシーズッキーニも、土にしみ込む雨の水で育っています。"
-  },
-  {
-    "id": "s10-1010",
+    "id": "ss9-2969",
     "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
     "origin": "長野県",
     "lat": 36.32,
