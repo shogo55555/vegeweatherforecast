@@ -1,8 +1,44 @@
 {
-  "updatedAt": "2026-08-20T00:56:47.853Z",
-  "updatedAtJst": "2026年8月20日 09:56",
+  "updatedAt": "2026-08-20T01:24:18.651Z",
+  "updatedAtJst": "2026年8月20日 10:24",
   "source": "WeatherAPI.com",
   "products": [
+    {
+      "id": "ss4-2926",
+      "tiketId": "2501bkb7",
+      "singleId": "ss4-2926",
+      "productName": "サーロインなす(埼玉県産)",
+      "origin": "埼玉県",
+      "isRain": false,
+      "weather": "曇天",
+      "raining": false,
+      "suppressedByWarning": false,
+      "activeWarnings": [],
+      "activeWarningDetails": [],
+      "message": null,
+      "rainImage": [
+        "https://www.oisix.com/g6/feature/image/ame_2501bkb7_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bkb7_contents.png"
+      ]
+    },
+    {
+      "id": "ss9-2176",
+      "tiketId": "2501bmbz",
+      "singleId": "ss5-2103",
+      "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
+      "origin": "埼玉県",
+      "isRain": false,
+      "weather": "曇天",
+      "raining": false,
+      "suppressedByWarning": false,
+      "activeWarnings": [],
+      "activeWarningDetails": [],
+      "message": null,
+      "rainImage": [
+        "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
+        "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
+      ]
+    },
     {
       "id": "ss9-2054",
       "tiketId": "2501bkt8",
@@ -10,7 +46,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -22,25 +58,7 @@
       ]
     },
     {
-      "id": "ss6-1682",
-      "tiketId": "2501bl86",
-      "singleId": "ss6-1682",
-      "productName": "ジューシーズッキーニ(北海道産)",
-      "origin": "北海道",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
-      "suppressedByWarning": false,
-      "activeWarnings": [],
-      "activeWarningDetails": [],
-      "message": "いま産地の北海道は雨。ジューシーズッキーニも、土にしみ込む雨の水で育っています。",
-      "rainImage": [
-        "https://www.oisix.com/g6/feature/image/ame_2501bl86_image.gif",
-        "https://www.oisix.com/g6/feature/image/ame_2501bl86_contents.png"
-      ]
-    },
-    {
-      "id": "s10-1010",
+      "id": "ss9-2969",
       "tiketId": "2501bmby",
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
