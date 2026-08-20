@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T14:31:00.442Z",
-  "updatedAtJst": "2026年8月20日 23:31",
+  "updatedAt": "2026-08-20T15:27:56.057Z",
+  "updatedAtJst": "2026年8月21日 00:27",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -9,13 +9,13 @@
       "singleId": "ss4-2926",
       "productName": "サーロインなす(埼玉県産)",
       "origin": "埼玉県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "isRain": false,
+      "weather": "曇天",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の埼玉県は雨。サーロインなすも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bkb7_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bkb7_contents.png"
@@ -27,13 +27,13 @@
       "singleId": "ss5-2103",
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "isRain": false,
+      "weather": "曇天",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の埼玉県は雨。スターおくらも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmbz_contents.png"
@@ -63,13 +63,13 @@
       "singleId": "s10-1010",
       "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
       "origin": "長野県",
-      "isRain": true,
+      "isRain": false,
       "weather": "霧",
-      "raining": true,
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
