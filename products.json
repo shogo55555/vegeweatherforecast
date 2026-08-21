@@ -48,19 +48,19 @@
     "rainMessage": "いま産地の群馬県は雨。レタスも、土にしみ込む雨の水で育っています。"
   },
   {
-    "id": "ss9-2969",
-    "productName": "高原育ちのシャキシャキキャベツ(長野県産)",
-    "origin": "長野県",
-    "lat": 36.32,
-    "lon": 138.508,
-    "jmaArea": "200000",
-    "subArea": "200020",
-    "tiketId": "2501bmby",
-    "singleId": "s10-1010",
+    "id": "ss6-2320",
+    "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
+    "origin": "群馬県",
+    "lat": 36.31,
+    "lon": 139.19,
+    "jmaArea": "100000",
+    "subArea": "100010",
+    "tiketId": "2501bkta",
+    "singleId": "ss6-1600",
     "rainImage": [
-      "https://www.oisix.com/g6/feature/image/ame_2501bmby_image.gif",
-      "https://www.oisix.com/g6/feature/image/ame_2501bmby_contents.png"
+      "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
+      "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
     ],
-    "rainMessage": "いま産地の長野は雨。シャキシャキキャベツも、土にしみ込む雨の水で育っています。"
+    "rainMessage": "いま産地の群馬は雨。パリっとおいしい！昔ながらのきゅうりも、土にしみ込む雨の水で育っています。"
   }
 ]
