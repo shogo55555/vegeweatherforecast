@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-22T00:57:01.834Z",
-  "updatedAtJst": "2026年8月22日 09:57",
+  "updatedAt": "2026-08-22T02:15:27.586Z",
+  "updatedAtJst": "2026年8月22日 11:15",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "埼玉県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": true,
-      "weather": "弱いにわか雨",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -63,13 +63,13 @@
       "singleId": "ss6-1600",
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
-      "isRain": true,
-      "weather": "近くで所により雨",
-      "raining": true,
+      "isRain": false,
+      "weather": "曇天",
+      "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
       "activeWarningDetails": [],
-      "message": "いま産地の群馬は雨。パリっとおいしい！昔ながらのきゅうりも、土にしみ込む雨の水で育っています。",
+      "message": null,
       "rainImage": [
         "https://www.oisix.com/g6/feature/image/ame_2501bkta_image.gif",
         "https://www.oisix.com/g6/feature/image/ame_2501bkta_contents.png"
