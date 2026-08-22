@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-22T14:16:08.017Z",
-  "updatedAtJst": "2026年8月22日 23:16",
+  "updatedAt": "2026-08-22T15:15:20.337Z",
+  "updatedAtJst": "2026年8月23日 00:15",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "埼玉県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -64,7 +64,7 @@
       "productName": "パリっとおいしい！昔ながらのきゅうり(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "弱いにわか雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
