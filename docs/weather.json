@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T07:53:23.822Z",
-  "updatedAtJst": "2026年8月24日 16:53",
+  "updatedAt": "2026-08-24T08:41:29.255Z",
+  "updatedAtJst": "2026年8月24日 17:41",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "曇り",
+      "weather": "一部曇り",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
