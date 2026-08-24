@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T09:41:10.947Z",
-  "updatedAtJst": "2026年8月24日 18:41",
+  "updatedAt": "2026-08-24T10:32:18.019Z",
+  "updatedAtJst": "2026年8月24日 19:32",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -10,7 +10,7 @@
       "productName": "サーロインなす(埼玉県産)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "煙霞",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -28,7 +28,7 @@
       "productName": "キラリ華やか スターおくら(埼玉県産 森田さん他)",
       "origin": "埼玉県",
       "isRain": false,
-      "weather": "晴れ",
+      "weather": "煙霞",
       "raining": false,
       "suppressedByWarning": false,
       "activeWarnings": [],
@@ -46,7 +46,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "近くで所により雨",
+      "weather": "霧",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
