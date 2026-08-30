@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-30T00:58:22.823Z",
-  "updatedAtJst": "2026年8月30日 09:58",
+  "updatedAt": "2026-08-30T06:20:52.002Z",
+  "updatedAtJst": "2026年8月30日 15:20",
   "source": "WeatherAPI.com",
   "products": [
     {
@@ -46,7 +46,7 @@
       "productName": "えぐみの少ない！レタス(群馬県産)",
       "origin": "群馬県",
       "isRain": true,
-      "weather": "霧",
+      "weather": "近くで所により雨",
       "raining": true,
       "suppressedByWarning": false,
       "activeWarnings": [],
